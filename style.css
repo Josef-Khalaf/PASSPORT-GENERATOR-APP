@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./NTd1QV.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  caret-color: blue;
+  background-color: #eee;
+}
+/* start info style */
+.box-1 {
+  width: 60%;
+  height: 300px;
+  margin: 30px auto;
+  background-color: transparent;
+}
+.box-1 h2 {
+  text-align: center;
+  padding: 4px;
+  color: #333;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: black;
+  font-size: 32px;
+}
+.box-1 form {
+  display: flex;
+  width: 55%;
+  height: 80%;
+  margin: auto;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(198, 201, 211, 0.295);
+  border-radius: 20px;
+}
+.box-1 form input {
+  height: 25px;
+  width: 300px;
+  margin: auto;
+  padding: 3px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #949bb1;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px white;
+  box-shadow: 2px 2px 2px 1px #333, 2px 2px 2px 1px black;
+}
+@media (max-width: 767px) {
+  .box-1 form input {
+    width: 150px;
+    height: 18px;
+    font-size: 12px;
+  }
+}
+.box-1 form input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+.box-1 form button {
+  width: 50px;
+  margin: auto;
+  background-color: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* end info style */
+/* hack: start pasport style */
+.passport {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  height: 200px;
+  background-color: rgba(198, 201, 211, 0.295);
+  border-radius: 5px;
+}
+.passport .t-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.passport .img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.passport .img img {
+  height: 90%;
+  width: 80%;
+}
+/* hack: end pasport style */
+.recent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+}

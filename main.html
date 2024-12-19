@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-passport</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- start passport form -->
+    <div class="box-1">
+      <h2>Add PassPort</h2>
+      <form id="form">
+        <input
+          class="fullName"
+          id="fullName"
+          placeholder="Enter Your Full name"
+          type="text"
+        />
+        <input
+          required;
+          class="cardId"
+          id="cardId"
+          placeholder="Enter Your ID Card Number"
+          type="text"
+        />
+        <input class="date" id="date" type="date" />
+        <input
+          required;
+          class="pn"
+          id="pn"
+          placeholder="Enter Your Phone Number"
+          type="text"
+        />
+        <hr style="width: 80%; margin: auto" />
+        <input
+          required
+          style="width: 40px"
+          type="submit"
+          class="add"
+          value="Add"
+        />
+      </form>
+    </div>
+    <!-- end passport form -->
+    <!-- hack:start passport places -->
+    <div class="recent"></div>
+    <!-- hack:end passport places -->
+    <script src="script.js"></script>
+  </body>
+</html>
